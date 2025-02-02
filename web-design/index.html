@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="International Islamic University - Offering a wide range of courses and world-class facilities to students from around the globe.">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.jpg" alt="University Logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()" role="button" aria-label="Close menu"></i>
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#course">COURSE</a></li>
+            <li><a href="#cta">BLOG</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()" role="button" aria-label="Open menu"></i>
+      </nav>
+      <div class="text-box">
+        <h1>International Islamic University</h1>
+        <p>Making website is now one of the easiest things in the world.<br> You just need to learn HTML, CSS, JS, version control like Git and GitHub, CSS frameworks, and JS libraries like React and Node.js.</p>
+        <a href="" class="hero-btn">Visit for more</a>
+      </div>
+    </header>
+    <main>
+      <section class="course" id="course"> 
+        <h1>Courses We Offer</h1>
+        <p>Explore a wide range of courses designed to help you achieve your academic and professional goals.</p>
+        <div class="row">
+          <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Our intermediate courses provide a strong foundation in various subjects, preparing students for advanced studies.</p>
+          </div>
+          <div class="course-col">
+            <h3>Degree</h3>
+            <p>Our degree programs offer in-depth knowledge and practical skills in various fields, ensuring a well-rounded education.</p>
+          </div>
+          <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Our postgraduate courses are designed to help students specialize in their chosen fields and advance their careers.</p>
+          </div>
+        </div>
+      </section>
+      <section class="campus">
+        <h1 id="contact">Our Global Campus</h1>
+        <p>Experience our world-class facilities and vibrant campus life.</p>
+        <div class="row">
+          <div class="campus-col">
+            <img src="images/london.jpg" alt="London Campus">
+            <div class="layer">
+              <h3>LONDON</h3>
+            </div>
+          </div>
+          <div class="campus-col">
+            <img src="images/new-york.jpg" alt="New York Campus">
+            <div class="layer">
+              <h3>NEW YORK</h3>
+            </div>
+          </div>
+          <div class="campus-col">
+            <img src="images/dubai.jpg" alt="Dubai Campus">
+            <div class="layer">
+              <h3>DUBAI</h3>
+            </div>
+          </div>
+          
+          
+        </div>
+      </section>
+      <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We provide state-of-the-art facilities to support your academic journey.</p>
+        <div class="row">
+          <div class="facilities-col">
+            <img src="images/library.jpg" alt="Library">
+            <h3>World Class Library</h3>
+            <p>Our library offers a vast collection of resources, including books, journals, and digital materials.</p>
+          </div>
+          <div class="facilities-col">
+            <img src="images/basketball.jpg" alt="Basketball Court">
+            <h3>Largest Play Ground</h3>
+            <p>Our sports facilities include a large playground, basketball courts, and more to keep you active and healthy.</p>
+          </div>
+          <div class="facilities-col">
+            <img src="images/cafeteria.jpg" alt="Cafeteria">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Our cafeteria offers a variety of delicious and nutritious meals to keep you energized throughout the day.</p>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials">
+        <h1>What Our Students Say</h1>
+        <div class="row">
+          <div class="testimonials-col">
+            <img src="images/user1.jpg" alt="Student 1">
+            <div>
+              <p>The university provides excellent resources and support for students. I highly recommend it!</p>
+              <h3>Meriam Jaqob</h3>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+          </div>
+          <div class="testimonials-col">
+            <img src="images/user2.jpg" alt="Student 2">
+            <div>
+              <p>I had a great experience studying here. The faculty is very supportive and the facilities are top-notch.</p>
+              <h3>John Abraham</h3>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cta" id="cta">
+        <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+        <a href="" class="hero-btn">Enroll Now</a>
+      </section>
+    </main>
+    <footer class="footer">
+      <h4 id="about">About Us</h4>
+      <p>International Islamic University<br>
+      Providing world-class education and research opportunities since 1980.<br>
+      Follow us on social media for the latest updates.</p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-youtube"></i>
+      </div>
+      <p>&copy;Made with <i class="fa fa-heart-o"></i> Shiera_Frontend Developers</p>
+    </footer>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0"; // show menu
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px"; // hide menu
+      }
+    </script>
+  </body>
+</html>
