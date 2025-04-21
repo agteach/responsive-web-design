@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Baitulmal Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="dashboard-grid">
+    <aside class="sidebar">
+      <h2 class="logo"><i class="fas fa-hand-holding-usd"></i> <span>Baitulmal</span></h2>
+      <nav class="nav" role="navigation">
+        <a href="#" aria-current="page"><i class="fas fa-home"></i> <span>Dashboard</span></a>
+        <a href="#"><i class="fas fa-chart-pie"></i> <span>Analytics</span></a>
+        <a href="#"><i class="fas fa-file-alt"></i> <span>Reports</span></a>
+        <a href="#"><i class="fas fa-users"></i> <span>Beneficiaries</span></a>
+        <a href="#"><i class="fas fa-donate"></i> <span>Donations</span></a>
+        <a href="#"><i class="fas fa-cog"></i> <span>Settings</span></a>
+        <a href="#"><i class="fas fa-sign-out-alt"></i> <span>Logout</span></a>
+      </nav>
+    </aside>
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <header class="topbar">
+      <button class="hamburger" id="hamburger" aria-label="Toggle sidebar" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+      <h1>Baitulmal</h1>
+    </header>
+    <main class="main-content">
+      <div class="card stat">
+        <div class="card-header">
+          <i class="fas fa-users"></i>
+          <h3>Total Beneficiaries</h3>
+        </div>
+        <p>1,234</p>
+      </div>
+      <div class="card stat">
+        <div class="card-header">
+          <i class="fas fa-donate"></i>
+          <h3>Total Donations</h3>
+        </div>
+        <p>$12,480</p>
+      </div>
+      <div class="card stat">
+        <div class="card-header">
+          <i class="fas fa-hand-holding-usd"></i>
+          <h3>Funds Distributed</h3>
+        </div>
+        <p>$8,250</p>
+      </div>
+      <div class="card stat">
+        <div class="card-header">
+          <i class="fas fa-file-alt"></i>
+          <h3>New Applications</h3>
+        </div>
+        <p>158</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>© 2025 Baitulmal. All rights reserved.</p>
+        <nav class="footer-links">
+          <a href="#"><i class="fas fa-shield-alt"></i> Privacy</a>
+          <a href="#"><i class="fas fa-file-contract"></i> Terms</a>
+          <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
